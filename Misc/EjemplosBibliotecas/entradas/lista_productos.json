@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Smartphone Alpha X",
+      "description": "Teléfono inteligente de última generación con cámara de alta resolución.",
+      "status": "Active",
+      "price": 999,
+      "image_url": "http://example.com/products/alpha-x.jpg"
+    },
+    {
+      "name": "Laptop Pro 17'",
+      "description": "Portátil de alto rendimiento para profesionales y gamers.",
+      "status": "Inactive",
+      "price": 1599,
+      "image_url": "http://example.com/products/laptop-pro-17.jpg"
+    },
+    {
+      "name": "Wireless Earbuds ZT",
+      "description": "Auriculares inalámbricos con cancelación de ruido y sonido de alta fidelidad.",
+      "status": "Active",
+      "price": 249,
+      "image_url": "http://example.com/products/earbuds-zt.jpg"
+    }
+  ]

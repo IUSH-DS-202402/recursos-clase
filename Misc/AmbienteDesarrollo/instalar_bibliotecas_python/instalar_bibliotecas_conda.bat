@@ -1,1 +1,1 @@
-conda install -y requests pillow
+conda install -y requests pillow pytest

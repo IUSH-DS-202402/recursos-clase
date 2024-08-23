@@ -16,6 +16,7 @@
    - Cada punto en el archivo tiene una sección que indica el inicio y el final de la solución.
    - Debes colocar tu solución **únicamente dentro de ese espacio**.
    - No modifiques ni elimines ninguna otra parte del archivo.
+   - El no seguir las instrucciones anteriores causará la pérdida del entregable de manera irremediable.
 
 ## Envío del Archivo
 

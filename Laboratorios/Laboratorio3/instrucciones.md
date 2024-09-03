@@ -13,7 +13,7 @@
    - Cada archivo contiene los puntos a desarrollar.
 
 3. **Formato de la Solución**:
-   - Cada punto en el archivo tiene una sección que indica el inicio y el final de la solución.
+   - Cada punto en el archivo tiene una sección que indica el inicio y el final de la solución llamados `INICIO_SOLUCION` y `FIN_SOLUCION`, estos deben estar tal cual como se especifica, de lo contrario la calificación será negativa.
    - Debes colocar tu solución **únicamente dentro de ese espacio**.
    - No modifiques ni elimines ninguna otra parte del archivo.
    - El no seguir las instrucciones anteriores causará la pérdida del entregable de manera irremediable.

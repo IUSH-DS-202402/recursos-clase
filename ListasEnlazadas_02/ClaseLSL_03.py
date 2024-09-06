@@ -46,7 +46,7 @@ class LSL:
         return nodoAnt
     
     def conectar(self, nodoAConectar:NS, nodoAnterior:NS) -> None:
-        if nodoAnterior == None:
+        if nodoAnterior is None:
             nodoAConectar.asignaLiga(self.primero)
             if self.primero == None:
                 self.ultimo = nodoAConectar

@@ -14,9 +14,11 @@
    - Cada archivo contiene los puntos a desarrollar.
 
 3. **Formato de la Solución**:
+   - Cada punto tiene unas instrucciones claras de que es lo que se espera, siga las instrucciones detalladamente, especial atención al nombramiento de los métodos y atributos. Si se solicita que se llamen por ejemplo 'mover', no será valido ningun otro nombre, ni 'moverValor', 'moviendo', 'moverA'. La atención al detalle es determinante para aprobar. 
    - Cada punto en el archivo tiene una sección que indica el inicio y el final de la solución llamados `INICIO_SOLUCION` y `FIN_SOLUCION`, estos deben estar tal cual como se especifica, de lo contrario la calificación será negativa.
    - Debes colocar tu solución **únicamente dentro de ese espacio**.
    - La solución debe ser completa e independiente de las demás, si se importan bibliotecas externas, estos imports deben formar parte de cada punto que son usados.
+   - Si usas Python, por favor valida la correcta identación del código antes de entregarlo, de lo contrario se calificará como incorrecto.
    - No modifiques ni elimines ninguna otra parte del archivo.
    - El no seguir las instrucciones anteriores causará la pérdida del entregable de manera irremediable.
 

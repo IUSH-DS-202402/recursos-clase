@@ -35,6 +35,9 @@
 3. **Verificación del Documento**:
    - Asegúrate de que el archivo enviado esté correctamente y que contenga tu solución dentro del espacio indicado.
 
+4. **Fecha máxima de envío:**:
+   - 29 de Septiembre del 2024 a las 23:59:59 PM
+
 ## Evaluación
 
 - La evaluación del laboratorio es automatizada.

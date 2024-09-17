@@ -8,9 +8,9 @@
    - Asegúrate de que tu solución cumpla con lo especificado en el enunciado, no más, no menos.
 
 2. **Archivos del Laboratorio**:
-   - Hay dos archivos con las preguntas del laboratorio: `lab4_A` y `lab4_B`. Usted podra seleccionar de manera libre cual desea entregar.
+   - Hay dos archivos con las preguntas del laboratorio: `lab5_A` y `lab5_B`. Usted podra seleccionar de manera libre cual desea entregar.
    - La letra A es de 'Avanzado' y B es de 'Básico'. Note que el laboratorio A requerirá habilidades un poco más avanzadas, como el uso de bibliotecas adicionales, complete el laboratorio que considere más apropiado para usted.
-   - Algunos estudiantes serán asignados el archivo `lab4_A` y otros el `lab4_B` en la clase.
+   - Algunos estudiantes serán asignados el archivo `lab5_A` y otros el `lab5_B` en la clase.
    - Cada archivo contiene los puntos a desarrollar.
 
 3. **Formato de la Solución**:
@@ -26,7 +26,7 @@
 
 1. **Formato y Nombre del Archivo**:
    - El archivo debe ser enviado en **formato plano** (puede ser .txt, .cpp, .py, etc.).
-   - Es crucial que **conserves el nombre original** del archivo (`lab4_A` o `lab4_B`).
+   - Es crucial que **conserves el nombre original** del archivo (`lab5_A` o `lab5_B`).
    - El no seguir estas instrucciones implicará que la entrega es inválida.
 
 2. **Método de Envío**:

@@ -12,7 +12,7 @@ class HashMap:
             iterador = iterador.retornaLiga()
         if iterador is None:
             raise("No se encontró la llave {llave}")
-        return iterador
+        return iterador.retornaValor()
     
     def contiene(self, llave):
         try:

@@ -56,7 +56,7 @@ class ColaPrioridad:
     def desencolar(self):
         if self.esVacia():
             raise Exception("La cola está vacía")
-        nodo = self.ultimo
+        nodo = self.primero
         if self.primero == self.ultimo:
             self.ultimo = None
         self.primero = self.primero.retornaLiga()

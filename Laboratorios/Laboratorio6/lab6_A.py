@@ -9,12 +9,21 @@
 #                                    #
 ######################################
 
-# Partiendo de la representación de Arboles como HashMap vista en clase, cree una clase llamada SistemaArchivos. Por defecto al crear una instancia del árbol, se creará el nodo raiz que tendrá el valor "C:". La clase SistemaArchivos almacenará rutas del sistema y deberá tener los siguientes métodos:
-# - crear_directorio(ruta): Recibe un parámetro llamado ruta que contiene la ruta nueva que se va a crear dentro del sistema de archivos. Las rutas siempre deben comenzar desde la raiz. Ej: crear_directorio("C:\Usuarios\Felipe\Documentos"). La forma de almacenar las rutas es la siguiente:
-#     Cada elemento de la ruta está separado por '\' siendo el primer elemento siempre C: y cada elemento subsecuente representa un subdirectorio en una estructura jerárquica., para el ejemplo anterior la relación de jerarquía es la siguiente: C: -> Usuarios -> Felipe -> Documentos. Al llamar varias veces el método se debe construir un árbol con dichas jerarquías. Si ya existía la jerarquía se debe retornar Falso, de lo contrario verdadero. En caso de recibir una entrada inválida se lanza un error.
-# - consultar_directorio(ruta): Recibe un parámetro llamado ruta que contiene la ruta que se va a consultar en el sistema de archivos, si existe retorna Verdadero, si no retorna Falso.
-#  ATENCIÓN: De no usar la representación mencionada al inicio el punto será inválido. Incluya todo el código de la clase SistemaArchivos.
-
+# Crear una clase llamada `SistemaArchivos` utilizando la representación de Árboles como HashMap vista en clase. 
+# Al instanciar `SistemaArchivos`, debe crear un nodo raíz con el valor "C:".
+# La clase `SistemaArchivos` debe permitir la gestión de rutas y contener los siguientes métodos:
+# 
+# - `crear_directorio(ruta)`: Recibe un parámetro `ruta` que contiene la nueva ruta a crear dentro del sistema de archivos. Las rutas deben comenzar desde la raíz.
+#   La ruta se almacena de la siguiente manera: Cada elemento de la ruta está separado por '\' y el primer elemento siempre es "C:". Cada elemento subsecuente representa un subdirectorio en una estructura jerárquica.
+#   - Si la jerarquía ya existe, retorna `False`.
+#   - Si se crea exitosamente, retorna `True`.
+#   - En caso de recibir una entrada inválida, lanza un error.
+# - `consultar_directorio(ruta)`: Recibe un parámetro `ruta` que contiene la ruta a consultar en el sistema de archivos. 
+#   - Si la ruta existe, retorna `True`.
+#   - Si la ruta no existe, retorna `False`.
+# 
+# Nota: Debe usar la representación de Árboles como HashMap para que el punto sea válido.
+# 
 # INICIO_SOLUCION
 # FIN_SOLUCION
 
@@ -24,8 +33,8 @@
 #                                    #
 ######################################
 
-# Teniendo en cuenta que para realizar el punto anterior partió de la representación de árboles como HashMap vista en clase, la eficiencia a la hora de insertar y consultar elementos puede ser mejorada drásticamente de log(n) a constante. Analice y realice los cambios necesarios a la representación para que el orden de magnitud sea constante para estas operaciones. Incluya todo el código de la clase SistemaArchivos.
-
+# Mejore la eficiencia de las operaciones de inserción y consulta en la clase `SistemaArchivos` del Punto #1.
+# Optimice la representación del árbol para mejorar la eficiencia de log(n) a tiempo constante. Incluya todo el código de la clase SistemaArchivos.
 
 # INICIO_SOLUCION
 # FIN_SOLUCION
@@ -36,11 +45,12 @@
 #                                    #
 ######################################
 
-# Busque el pensum de alguna universidad que le parezca llamativa de EEUU y represente como un árbol el pensum de algun estudio de pregrado o posgrado de su preferencia usando la notación de árbol como listas.
-
+# Partiendo de la clase `SistemaArchivos` del Punto #1. Cree el método `hallar_altura(ruta)` en la clase `SistemaArchivos`.
+# Este método debe buscar el nodo con el valor dado y retornar la altura del nodo en la estructura. Si no existe lanza un error. Incluya todo el código de la clase SistemaArchivos.
 
 # INICIO_SOLUCION
 # FIN_SOLUCION
+
 
 ######################################
 #                                    #
@@ -48,7 +58,8 @@
 #                                    #
 ######################################
 
-# Partiendo de la representación de árboles como HashMap, cree el método hallar_altura(...) que dado el valor de un nodo, lo busque en la estructura y retorne la altura.
+# Cree una función llamada `calcular_posfijo` que reciba una expresión matemática en notación posfija (postfija) y calcule el resultado.
+# Las operaciones a considerar son:  multiplicación (*), división (/), suma (+) y resta (-).
 
 # INICIO_SOLUCION
 # FIN_SOLUCION
@@ -59,7 +70,44 @@
 #                                    #
 ######################################
 
-# Partiendo de la representación de árboles como listas, cree el método 'ancestros(...)' que reciba el valor de un nodo, lo busque en la estructura e imprima los ancestros. Recuerde que los ancestros incluyen al nodo en cuestión.
+# Cree una clase llamada `ArbolExpresion` que permita construir un árbol de expresiones a partir de una expresión matemática en notación inorden.
+# Las operaciones a considerar son: multiplicación (*), división (/), suma (+) y resta (-), 
+# y deben manejarse también los paréntesis para definir la precedencia de las operaciones.
+# 
+# La clase `ArbolExpresion` debe incluir los siguientes métodos:
+# - `leer_inorden(expresion)`: Recibe una cadena `expresion` que contiene la expresión matemática en notación inorden y construye el árbol de expresiones.
+# - `imprimir()`: Imprime la expresión en notación inorden.
+# 
+# Incluya todo el código de la clase 'ArbolExpresion'.
+
+# INICIO_SOLUCION
+# FIN_SOLUCION
+
+######################################
+#                                    #
+#             Punto #6               #
+#                                    #
+######################################
+
+# Extienda la clase `ArbolExpresion` para permitir la construcción de un árbol de expresiones a partir de una expresión matemática en notación posorden.
+# La clase `ArbolExpresion` debe incluir el siguiente método adicional:
+# - `leer_posorden(expresion_posorden)`: Recibe una cadena `expresion_posorden` que contiene la expresión matemática en notación posorden y construye el árbol de expresiones.
+# - `imprimir_posorden()`: Imprime la expresión en notación posorden.
+# 
+# Incluya todo el código de la clase 'ArbolExpresion'.
+
+# INICIO_SOLUCION
+# FIN_SOLUCION
+
+######################################
+#                                    #
+#             Punto #7               #
+#                                    #
+######################################
+
+# Extienda la clase `ArbolExpresion` para evaluar la expresión representada por el árbol.
+# La clase `ArbolExpresion` debe incluir el siguiente método adicional:
+# - `evaluar()`: Evalúa la expresión representada por el árbol y retorna el resultado. Incluya todo el código de la clase 'ArbolExpresion'.
 
 # INICIO_SOLUCION
 # FIN_SOLUCION
